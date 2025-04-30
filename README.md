@@ -1,58 +1,67 @@
-# ADK-Aari-Creation
+# ADK-Aari-Website
 
 ## Overview
-ADK-Aari-Creation is a modern web application built using **React.js** and **Vite**. The application provides a clean, responsive, and modular user interface with dedicated pages for **Home**, **About**, **Contact**, **Courses**, and **Designs**. It incorporates reusable components and CSS styling to provide an intuitive experience across various devices.
+**ADK-Aari-Website** is a responsive and modular web application built using **React.js** and **Vite**. It serves as a portfolio/presentation site with multiple sections: Home, About, Contact, Courses, and Designs. The project focuses on clean UI/UX and organized code using reusable components and scoped CSS styling.
 
 ## Features
-- **Responsive Design**: Ensures the app looks great on devices of all sizes.
-- **Modular Architecture**: Clear structure with reusable components and pages.
-- **Smooth Navigation**: Scroll-to-top feature for easy navigation.
-- **Customizable UI**: Styled components to enhance user experience.
+- Responsive design for all screen sizes
+- Reusable component-based architecture
+- Scroll-to-top navigation for better UX
+- Clean and maintainable file structure
+- Easy to extend and customize
 
 ## Tech Stack
 
-- **Frontend**:
-  - **React.js**: JavaScript library for building user interfaces.
-  - **Vite**: Next-generation build tool for faster development and bundling.
-  - **React Router**: Used for navigation between different pages.
-  - **Lucide React**: A collection of customizable icons for UI elements.
+- **Frontend**:  
+  - React.js  
+  - Vite  
+  - React Router DOM  
+  - Lucide React (for icons)  
+  - PropTypes (for type checking)
 
-- **Styling**:
-  - **CSS**: Custom styles for individual components and global layout.
+- **Styling**:  
+  - Custom CSS files scoped per page/component
 
-- **Linting and Code Quality**:
-  - **ESLint**: JavaScript linter to enforce code quality and consistency.
+- **Development Tools**:  
+  - ESLint (with hooks and refresh plugins)  
+  - Vite for fast dev server and bundling  
+  - Type definitions for React and ReactDOM
 
 ## Installation
 
 ### Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed.
+- [Node.js](https://nodejs.org/en/) (v16 or later recommended)
 
-### Steps to Set Up
+### Steps
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Balajibn64/ADK-Aari-creation.git
-Navigate into the project directory:
+   git clone https://github.com/vibexio/Aariwork.git
+   ```
 
-bash
-Copy
-Edit
-cd ADK-Aari-creation
-Install the dependencies:
+2. Navigate to the project folder:
+   ```bash
+   cd Aariwork
+   ```
 
-bash
-Copy
-Edit
-npm install
-Available Scripts
-npm run dev: Starts the development server using Vite.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-npm run build: Builds the production version of the app.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-npm run lint: Lints the codebase using ESLint.
+## Available Scripts
 
-npm run preview: Previews the production build locally.
+- `npm run dev` - Starts the local development server
+- `npm run build` - Builds the production-ready app
+- `npm run preview` - Previews the production build locally
+- `npm run lint` - Runs ESLint on the codebase
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
